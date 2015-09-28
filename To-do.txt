@@ -1,0 +1,20 @@
+// Home //
+-Fade in button
+-On click button:
+	-hides button (fadeout)
+ 	-changes color of background
+ 	-reveals content (fadein)
+ 		-menu button
+ 		-text
+
+// About //
+
+// Projects //
+-Treehouse
+-Learn Python the Hard Way
+-
+
+// CV //
+- expand/collaps sections
+
+// Contact //
