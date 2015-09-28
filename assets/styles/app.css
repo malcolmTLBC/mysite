@@ -5029,7 +5029,7 @@ button.close {
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #fff;
+  color: #FF1919;
   background: rgba(255, 255, 255, 0.2); }
 
 .sidebar-nav li a:active, .sidebar-nav li a:focus {
@@ -5044,7 +5044,7 @@ button.close {
   color: #999999; }
 
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
+  color: #FF1919;
   background: none; }
 
 @media (min-width: 768px) {
