@@ -51,7 +51,7 @@
 /* Sidebar Styles */
 
 .sidebar-nav {
-    position: absolute;
+    position: relative;
     top: 0;
     width: 250px;
     margin: 0;
@@ -59,12 +59,15 @@
     list-style: none;
 }
 
-.sidebar-nav li {
-    text-indent: 20px;
+.sidebar-nav li, 
+.sidebar-brand,
+.sidebar-brand span {
+    text-indent: 15px;
     line-height: 40px;
+    width: 250px;
 }
 
-.sidebar-nav li a {
+.sidebar-nav li, a {
     display: block;
     text-decoration: none;
     color: #999999;
@@ -81,19 +84,24 @@
     text-decoration: none;
 }
 
-.sidebar-nav > .sidebar-brand {
+.sidebar-brand {
     height: 65px;
-    font-size: 18px;
+    // font-size: 18px;
     line-height: 60px;
+        span {
+        font-size: 0.8rem;
+    }
+    
 }
 
-.sidebar-nav > .sidebar-brand a {
+.sidebar-brand a {
     color: #999999;
 }
 
-.sidebar-nav > .sidebar-brand a:hover {
+.sidebar-brand a:hover {
     color: #FF1919;
     background: none;
+    text-decoration: none;
 }
 
 
