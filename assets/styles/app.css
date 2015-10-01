@@ -4978,27 +4978,27 @@ button.close {
  */
 /* Toggle Styles */
 #wrapper {
-  padding-left: 250px;
-  -webkit-transition: all 0.5s ease;
-  transition: all 2s ease; }
+  padding-left: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease; }
 
 #wrapper.toggled {
-  padding-left: 0; }
+  padding-left: 250px; }
 
 #sidebar-wrapper {
   z-index: 1000;
   position: fixed;
   left: 250px;
-  width: 250px;
+  width: 0;
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
   background: #000;
-  -webkit-transition: all 0.5s ease;
-  transition: all 2s ease; }
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease; }
 
 #wrapper.toggled #sidebar-wrapper {
-  width: 0; }
+  width: 250px; }
 
 #page-content-wrapper {
   width: 100%;
@@ -5074,11 +5074,27 @@ button.close {
 .menu-button {
   width: 50px;
   cursor: pointer; }
+  @media only screen and (min-width: 768px) {
+    .menu-button {
+      width: 100px; } }
 
 svg {
   width: inherit; }
 
 svg > * {
-  fill: #FF1919;
-  stroke: #FF1919;
-  stroke-width: 0.85px; }
+  fill: #000;
+  stroke: #000;
+  stroke-width: 0.01px; }
+
+.svg-container svg {
+  max-width: 100%;
+  width: 100%;
+  height: auto; }
+
+#name {
+  max-width: 60%;
+  width: 60%; }
+
+#link {
+  max-width: 30%;
+  width: 30%; }

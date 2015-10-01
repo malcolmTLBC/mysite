@@ -3,7 +3,7 @@ $(document).ready(function () {
 		    $(this).toggleClass("active");
 	  });
 var tmax_optionsGlobal = {
-  repeat: -1,
+  repeat: 0,
   repeatDelay: 0.65,
   yoyo: false
 };
@@ -11,9 +11,9 @@ var tmax_optionsGlobal = {
 CSSPlugin.useSVGTransformAttr = true;
 
 var tl = new TimelineMax(tmax_optionsGlobal),
-    path = '#Layer_1 *',
-    stagger_val = 0.025,
-    duration = 0.75;
+    path = '#name *, #menu *, #title *, #link *',
+    stagger_val = 0.001,
+    duration = 1;
 
 $.each($(path), function(i, el) {
   tl.set($(this), {
@@ -31,7 +31,7 @@ var stagger_opts_to = {
   opacity: 1,
   scale: 1,
   rotation: 0,
-  ease: Power4.easeInOut
+  ease: Power1.easeInOut
 };
 
 tl.staggerTo(path, duration, stagger_opts_to, stagger_val);

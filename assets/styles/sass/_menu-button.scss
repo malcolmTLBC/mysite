@@ -1,6 +1,9 @@
 .menu-button {
 	width: 50px;
 	cursor: pointer;
+	@include MQ(M) {
+		width: 100px;
+	}
 }
 
 svg {
