@@ -10,6 +10,13 @@ svg > * {
     height: auto;
 }
 
+.link {
+  margin: 40px 0;
+  @include MQ(M) {
+    margin: 100px 0;
+  }
+}
+
 #name {
   max-width: 60%;
   width: 60%;

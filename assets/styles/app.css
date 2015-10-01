@@ -4971,6 +4971,12 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+.row {
+  margin: 5px 0; }
+  @media only screen and (min-width: 768px) {
+    .row {
+      margin: 25px; } }
+
 /*!
  * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -5090,6 +5096,12 @@ svg > * {
   max-width: 100%;
   width: 100%;
   height: auto; }
+
+.link {
+  margin: 40px 0; }
+  @media only screen and (min-width: 768px) {
+    .link {
+      margin: 100px 0; } }
 
 #name {
   max-width: 60%;

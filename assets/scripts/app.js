@@ -12,7 +12,7 @@ CSSPlugin.useSVGTransformAttr = true;
 
 var tl = new TimelineMax(tmax_optionsGlobal),
     path = '#name *, #menu *, #title *, #link *',
-    stagger_val = 0.001,
+    stagger_val = 0.004,
     duration = 1;
 
 $.each($(path), function(i, el) {
@@ -39,7 +39,7 @@ tl.staggerTo(path, duration, stagger_opts_to, stagger_val);
 var $svg = $('svg');
 $svg.hover(
   function() {
-    tl.timeScale(0.15);
+    tl.timeScale(0.25);
   },
   function() {
     tl.timeScale(1);
