@@ -5002,6 +5002,7 @@ button.close {
 
 #page-content-wrapper {
   width: 100%;
+  height: 100vh;
   position: absolute;
   padding: 15px; }
 
@@ -5037,10 +5038,14 @@ button.close {
   text-decoration: none; }
 
 .sidebar-brand {
-  height: 65px;
-  line-height: 60px; }
-  .sidebar-brand span {
-    font-size: 0.8rem; }
+  height: 70px; }
+  .sidebar-brand h4 {
+    margin-left: 15px;
+    margin-top: 30px; }
+    .sidebar-brand h4 span {
+      margin-left: inherit;
+      font-size: 13px;
+      line-height: 0.2; }
 
 .sidebar-brand a {
   color: #999999; }
@@ -5066,48 +5071,14 @@ button.close {
     position: relative;
     margin-right: 0; } }
 
-.onoffswitch {
-  position: relative;
-  width: 40px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none; }
+.menu-button {
+  width: 50px;
+  cursor: pointer; }
 
-.onoffswitch-checkbox {
-  display: none; }
+svg {
+  width: inherit; }
 
-.onoffswitch-label {
-  display: block;
-  overflow: hidden;
-  cursor: pointer;
-  height: 23px;
-  padding: 0;
-  line-height: 23px;
-  border: 0px solid #999999;
-  border-radius: 11px;
-  background-color: #FF1919; }
-
-.onoffswitch-label:before {
-  content: "";
-  display: block;
-  width: 11px;
-  margin: 6px;
-  background: #000000;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 13px;
-  border-radius: 11px; }
-
-.onoffswitch-checkbox:checked + .onoffswitch-label {
-  background-color: #050505; }
-
-.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
-  border-color: #050505; }
-
-.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
-  margin-left: 0; }
-
-.onoffswitch-checkbox:checked + .onoffswitch-label:before {
-  right: 0px;
-  background-color: #FF1919; }
+svg > * {
+  fill: #FF1919;
+  stroke: #FF1919;
+  stroke-width: 0.85px; }
