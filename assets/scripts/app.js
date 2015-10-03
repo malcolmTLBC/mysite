@@ -9,8 +9,8 @@ CSSPlugin.useSVGTransformAttr = true;
 
 var tl = new TimelineMax(tmax_optionsGlobal),
     path = '#name *, #menu *, #title *, #link *',
-    stagger_val = 0.004,
-    duration = 1;
+    stagger_val = 0.00004,
+    duration = 3;
 
 $.each($(path), function(i, el) {
   tl.set($(this), {
@@ -45,4 +45,3 @@ tl.staggerTo(path, duration, stagger_opts_to, stagger_val);
 function getRandom(min, max) {
   return Math.random() * (max - min) + min;
 }
-

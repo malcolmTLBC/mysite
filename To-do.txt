@@ -1,20 +1,27 @@
-// Home //
--Fade in button
--On click button:
-	-hides button (fadeout)
- 	-changes color of background
- 	-reveals content (fadein)
- 		-menu button
- 		-text
+ // Home //
+-smashing text all flies in
+-on click flies out
 
 // About //
+-svg image of me and text flies in(smashing)
+-links to linkedin, git, codepen
+-credit for smashing text by ARS (include link)
 
 // Projects //
 -Treehouse
 -Learn Python the Hard Way
--
+-soie-de-lune
 
 // CV //
+-smashing text headings
 - expand/collaps sections
 
 // Contact //
+-form
+-links
+-number
+-email
+
+
+- links in sidebar (horizontal)
+- on click (animation reverse/load next page)
