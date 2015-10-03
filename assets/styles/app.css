@@ -4977,6 +4977,11 @@ button.close {
     .row {
       margin: 25px; } }
 
+.cv-subhead {
+  height: 20px; }
+  .cv-subhead a {
+    height: inherit; }
+
 /*!
  * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -5085,12 +5090,18 @@ button.close {
       width: 100px; } }
 
 svg {
-  width: inherit; }
+  width: inherit;
+  height: inherit; }
 
 svg > * {
   fill: #000;
   stroke: #000;
-  stroke-width: 0.01px; }
+  stroke-width: 0.3px; }
+
+.menu-button svg:hover > * {
+  fill: #FF1919;
+  stroke: #000;
+  stroke-width: 1px; }
 
 .svg-container svg {
   max-width: 100%;

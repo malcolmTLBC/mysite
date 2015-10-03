@@ -1,7 +1,4 @@
-$(document).ready(function () {
-	  $(".hamburger-menu").on("click", function () {
-		    $(this).toggleClass("active");
-	  });
+
 var tmax_optionsGlobal = {
   repeat: 0,
   repeatDelay: 0.65,
@@ -36,17 +33,16 @@ var stagger_opts_to = {
 
 tl.staggerTo(path, duration, stagger_opts_to, stagger_val);
 
-var $svg = $('svg');
-$svg.hover(
-  function() {
-    tl.timeScale(0.25);
-  },
-  function() {
-    tl.timeScale(1);
-  });
+// var $svg = $('svg');
+// $svg.hover(
+//   function() {
+//     tl.timeScale(0.25);
+//   },
+//   function() {
+//     tl.timeScale(1);
+//   });
 
 function getRandom(min, max) {
   return Math.random() * (max - min) + min;
 }
 
-});
