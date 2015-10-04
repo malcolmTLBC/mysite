@@ -5102,12 +5102,12 @@ svg {
 svg > * {
   fill: #000;
   stroke: #000;
-  stroke-width: 0.3px; }
+  stroke-width: 1px; }
 
 .hover-red svg:hover > * {
-  fill: #FF1919;
+  fill: #6E5F60;
   stroke: #000;
-  stroke-width: 0.5px; }
+  stroke-width: 3px; }
 
 .svg-container svg {
   max-width: 100%;
@@ -5119,12 +5119,11 @@ svg > * {
   @media only screen and (min-width: 768px) {
     .link {
       margin: 50px 0; } }
-
-.link svg {
-  height: 30px; }
-  @media only screen and (min-width: 768px) {
-    .link svg {
-      height: 65px; } }
+  .link svg {
+    height: 30px; }
+    @media only screen and (min-width: 768px) {
+      .link svg {
+        height: 65px; } }
 
 #name {
   max-width: 60%;
