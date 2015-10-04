@@ -1,13 +1,13 @@
 svg > * {
   fill: #000;
   stroke: #000;
-  stroke-width: 0.3px;
+  stroke-width: 1px;
 }
 
 .hover-red svg:hover > * {
-  fill: #FF1919;
+  fill: #6E5F60;
   stroke: #000;
-  stroke-width: 0.5px;
+  stroke-width: 3px;
 }
 
 .svg-container svg{
@@ -22,14 +22,20 @@ svg > * {
   @include MQ(M) {
     margin: 50px 0;
   }
-}
-
-.link svg {
-  height: 30px;
-  @include MQ(M) {
-    height: 65px;
+  svg {
+    height: 30px;
+    @include MQ(M) {
+      height: 65px;
+    }
   }
 }
+
+// .link svg {
+//   height: 30px;
+//   @include MQ(M) {
+//     height: 65px;
+//   }
+// }
 
 #name {
   max-width: 60%;
