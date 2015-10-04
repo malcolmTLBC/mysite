@@ -4971,11 +4971,28 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+svg {
+  width: inherit;
+  height: inherit; }
+
 .row {
-  margin: 5px 0; }
+  margin: 50px 0; }
   @media only screen and (min-width: 768px) {
     .row {
-      margin: 25px; } }
+      margin: 60px 0; } }
+
+.top-row {
+  margin: 20px 0; }
+  @media only screen and (min-width: 768px) {
+    .top-row {
+      margin: 20px 0; } }
+
+.menu-button {
+  width: 50px;
+  cursor: pointer; }
+  @media only screen and (min-width: 768px) {
+    .menu-button {
+      width: 100px; } }
 
 .cv-subhead {
   height: 20px; }
@@ -5082,42 +5099,36 @@ button.close {
     position: relative;
     margin-right: 0; } }
 
-.menu-button {
-  width: 50px;
-  cursor: pointer; }
-  @media only screen and (min-width: 768px) {
-    .menu-button {
-      width: 100px; } }
-
-svg {
-  width: inherit;
-  height: inherit; }
-
 svg > * {
   fill: #000;
   stroke: #000;
   stroke-width: 0.3px; }
 
-.menu-button svg:hover > * {
+.hover-red svg:hover > * {
   fill: #FF1919;
   stroke: #000;
-  stroke-width: 1px; }
+  stroke-width: 0.5px; }
 
 .svg-container svg {
   max-width: 100%;
-  width: 100%;
-  height: auto; }
+  width: auto;
+  padding: 10px; }
 
 .link {
   margin: 40px 0; }
   @media only screen and (min-width: 768px) {
     .link {
-      margin: 100px 0; } }
+      margin: 50px 0; } }
+
+.link svg {
+  height: 30px; }
+  @media only screen and (min-width: 768px) {
+    .link svg {
+      height: 65px; } }
 
 #name {
   max-width: 60%;
   width: 60%; }
-
-#link {
-  max-width: 30%;
-  width: 30%; }
+  @media only screen and (min-width: 768px) {
+    #name {
+      margin-top: 50px; } }

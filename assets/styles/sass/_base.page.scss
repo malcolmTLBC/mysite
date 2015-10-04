@@ -1,6 +1,32 @@
+// #wrapper {
+// 	height: 100vh;
+// }
+// * {
+// 	border: 1px solid red;
+// }
+svg {
+	width: inherit;
+	height: inherit;
+}
+
 .row {
-	margin: 5px 0;
+	margin: 50px 0;
 	@include MQ(M) {
-		margin: 25px;
+		margin: 60px 0;
 	}
+}
+
+.top-row {
+	margin: 20px 0;
+	@include MQ(M) {
+		margin: 20px 0;
+	}
+}
+.menu-button {
+	width: 50px;
+	cursor: pointer;
+	@include MQ(M) {
+		width: 100px;
+	}
+
 }

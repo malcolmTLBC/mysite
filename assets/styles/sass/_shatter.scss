@@ -4,31 +4,44 @@ svg > * {
   stroke-width: 0.3px;
 }
 
-.menu-button svg:hover > * {
+.hover-red svg:hover > * {
   fill: #FF1919;
   stroke: #000;
-  stroke-width: 1px;
+  stroke-width: 0.5px;
 }
 
 .svg-container svg{
     max-width: 100%;
-    width: 100%;
-    height: auto;
+    width: auto;
+    // height: auto;
+    padding: 10px;
 }
 
 .link {
   margin: 40px 0;
   @include MQ(M) {
-    margin: 100px 0;
+    margin: 50px 0;
+  }
+}
+
+.link svg {
+  height: 30px;
+  @include MQ(M) {
+    height: 65px;
   }
 }
 
 #name {
   max-width: 60%;
   width: 60%;
+  @include MQ(M) {
+      margin-top: 50px;
+  }
 }
 
-#link {
-  max-width: 30%;
-  width: 30%;
-}
+
+// #link {
+//   max-width: 100%;
+//   min-height: 10px;
+//   min-height: 10px;
+// }

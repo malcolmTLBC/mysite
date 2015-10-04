@@ -25,3 +25,41 @@
 
 - links in sidebar (horizontal)
 - on click (animation reverse/load next page)
+
+
+
+
+
+SVG's to make
+
+--Home
+*Menu
+*Malcolm Fernandes
+*Front-End Web Developer
+About
+Projects
+CV
+Contact
+
+--About
+my face
+about text - dont cut
+
+--Projects
+soiedelune
+treehouse
+codepen
+github
+
+--CV
+-headings
+Synopsis
+Experience
+Key Skils
+Skills
+Education 
+
+--Contact
+telephone number
+email address
+

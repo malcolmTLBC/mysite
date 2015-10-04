@@ -9,15 +9,15 @@ CSSPlugin.useSVGTransformAttr = true;
 
 var tl = new TimelineMax(tmax_optionsGlobal),
     path = '#name *, #menu *, #title *, #link *',
-    stagger_val = 0.00004,
+    stagger_val = 0.002,
     duration = 3;
 
 $.each($(path), function(i, el) {
   tl.set($(this), {
-    x: '+=' + getRandom(-500, 500),
-    y: '+=' + getRandom(-500, 500),
-    rotation: '+=' + getRandom(-720, 720),
-    scale: 0,
+    x: '+=' + getRandom(-20, 20 ),
+    y: '+=' + getRandom(-20, 20 ),
+    rotation: '+=' + getRandom(-400, 400),
+    scale: 1,
     opacity: 0
   });
 });
@@ -28,7 +28,7 @@ var stagger_opts_to = {
   opacity: 1,
   scale: 1,
   rotation: 0,
-  ease: Power1.easeInOut
+  ease: Power4.easeOut
 };
 
 tl.staggerTo(path, duration, stagger_opts_to, stagger_val);
