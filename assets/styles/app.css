@@ -5067,12 +5067,12 @@ svg {
 
 .sidebar-brand {
   height: 70px; }
-  .sidebar-brand h4 {
+  .sidebar-brand h5 {
     margin-left: 15px;
     margin-top: 30px; }
-    .sidebar-brand h4 span {
+    .sidebar-brand h5 span {
       margin-left: inherit;
-      font-size: 13px;
+      font-size: 1rem;
       line-height: 0.2; }
 
 .sidebar-brand a {

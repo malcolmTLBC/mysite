@@ -13,11 +13,11 @@ var tl = new TimelineMax(tmax_optionsGlobal),
 
 $.each($(path), function(i, el) {
   tl.set($(this), {
-    x: '+=' + getRandom(-20, 20 ),
-    y: '+=' + getRandom(-20, 20 ),
-    rotation: '+=' + getRandom(-720, 720),
-    scale: 1,
-    opacity: 0
+    x: '+=' + getRandom(-2, 2 ),
+    y: '+=' + getRandom(-2, 2 ),
+    rotation: '+=' + getRandom(-7200, 7200),
+    scale: 0,
+    opacity: 1
   });
 });
 
