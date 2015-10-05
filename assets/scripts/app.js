@@ -13,11 +13,11 @@ var tl = new TimelineMax(tmax_optionsGlobal),
 
 $.each($(path), function(i, el) {
   tl.set($(this), {
-    x: '+=' + getRandom(-2, 2 ),
-    y: '+=' + getRandom(-2, 2 ),
-    rotation: '+=' + getRandom(-7200, 7200),
+    x: '+=' + getRandom(-40, 40 ),
+    y: '+=' + getRandom(-40, 40 ),
+    rotation: '+=' + getRandom(-350, 350 ),
     scale: 0,
-    opacity: 1
+    opacity: 0
   });
 });
 
@@ -40,7 +40,7 @@ var reverse_stagger_opts = {
 
 tl.staggerTo('#name *', duration, stagger_opts_to, stagger_val);
 tl.staggerTo('#title *', duration, stagger_opts_to, stagger_val, 0.5);
-tl.staggerTo('#link *', 0.5, stagger_opts_to, 0.001, 1);
+tl.staggerTo('#link *', 0.5, stagger_opts_to, 0.0015, 1);
 tl.staggerTo('#menu *', duration, stagger_opts_to, stagger_val, 3);
 
 // $("#link *").hover(

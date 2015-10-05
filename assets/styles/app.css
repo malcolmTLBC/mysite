@@ -4971,28 +4971,54 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+body {
+  background-color: #DCDCDC; }
+
 svg {
   width: inherit;
   height: inherit; }
 
 .row {
-  margin: 50px 0; }
-  @media only screen and (min-width: 768px) {
+  margin: 40px 0; }
+  @media only screen and (min-width: 410px) {
     .row {
       margin: 60px 0; } }
 
 .top-row {
   margin: 20px 0; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 410px) {
     .top-row {
       margin: 20px 0; } }
 
 .menu-button {
   width: 50px;
   cursor: pointer; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 410px) {
     .menu-button {
       width: 100px; } }
+
+.head svg {
+  height: 45px; }
+  @media only screen and (min-width: 410px) {
+    .head svg {
+      height: 65px; } }
+
+.contact-row {
+  margin: 5px 0; }
+  @media only screen and (min-width: 410px) {
+    .contact-row {
+      margin: 20px 0; } }
+
+.about-container {
+  height: 35vh;
+  padding-top: 0; }
+  @media only screen and (min-width: 410px) {
+    .about-container {
+      height: 50vh; } }
+  .about-container .svg-container {
+    height: inherit; }
+    .about-container .svg-container svg {
+      height: inherit; }
 
 .cv-subhead {
   height: 20px; }
@@ -5046,6 +5072,8 @@ svg {
   margin: 0;
   padding: 0;
   list-style: none; }
+  .sidebar-nav li:nth-child(4) {
+    border-bottom: thin solid #999999; }
 
 .sidebar-nav li, .sidebar-brand, .sidebar-brand span {
   text-indent: 15px;
@@ -5059,14 +5087,15 @@ svg {
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #FF1919;
+  color: #999999;
   background: rgba(255, 255, 255, 0.2); }
 
 .sidebar-nav li a:active, .sidebar-nav li a:focus {
   text-decoration: none; }
 
 .sidebar-brand {
-  height: 70px; }
+  height: 70px;
+  border-bottom: thin solid #999999; }
   .sidebar-brand h5 {
     margin-left: 15px;
     margin-top: 30px; }
@@ -5079,7 +5108,7 @@ svg {
   color: #999999; }
 
 .sidebar-brand a:hover {
-  color: #FF1919;
+  color: #999999;
   background: none;
   text-decoration: none; }
 
@@ -5102,12 +5131,12 @@ svg {
 svg > * {
   fill: #000;
   stroke: #000;
-  stroke-width: 1px; }
+  stroke-width: 0.1px; }
 
 .hover-red svg:hover > * {
   fill: #6E5F60;
   stroke: #000;
-  stroke-width: 3px; }
+  stroke-width: 0.5px; }
 
 .svg-container svg {
   max-width: 100%;
@@ -5116,18 +5145,18 @@ svg > * {
 
 .link {
   margin: 40px 0; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 410px) {
     .link {
       margin: 50px 0; } }
   .link svg {
-    height: 30px; }
-    @media only screen and (min-width: 768px) {
+    height: 38px; }
+    @media only screen and (min-width: 410px) {
       .link svg {
-        height: 65px; } }
+        height: 54px; } }
 
 #name {
   max-width: 60%;
   width: 60%; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 410px) {
     #name {
       margin-top: 50px; } }

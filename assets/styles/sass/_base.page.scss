@@ -4,29 +4,62 @@
 // * {
 // 	border: 1px solid red;
 // }
+body {
+	background-color: #DCDCDC;
+}
+
 svg {
 	width: inherit;
 	height: inherit;
 }
 
 .row {
-	margin: 50px 0;
-	@include MQ(M) {
+	margin: 40px 0;
+	@include MQ(S) {
 		margin: 60px 0;
 	}
 }
 
 .top-row {
 	margin: 20px 0;
-	@include MQ(M) {
+	@include MQ(S) {
 		margin: 20px 0;
 	}
 }
 .menu-button {
 	width: 50px;
 	cursor: pointer;
-	@include MQ(M) {
+	@include MQ(S) {
 		width: 100px;
 	}
 
+}
+
+.head svg {
+	height: 45px;
+	@include MQ(S) {
+		height: 65px;
+	}
+}
+
+.contact-row {
+	margin: 5px 0;
+	@include MQ(S) {
+		margin: 20px 0;
+	}
+}
+
+.about-container {
+	height: 35vh;
+	padding-top: 0;
+	@include MQ(S) {
+		height: 50vh;
+		// padding-top: 200px;
+	}
+	.svg-container {
+		height: inherit;
+		svg {
+			height: inherit;
+		}
+	}
 }

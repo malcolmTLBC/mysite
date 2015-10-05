@@ -58,6 +58,9 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    li:nth-child(4) {
+        border-bottom: thin solid #999999;
+    }
 }
 
 .sidebar-nav li, 
@@ -76,7 +79,7 @@
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #FF1919;
+    color: #999999;
     background: rgba(255,255,255,0.2);
 }
 
@@ -87,6 +90,7 @@
 
 .sidebar-brand {
     height: 70px;
+    border-bottom: thin solid #999999;
     // font-size: 18px;
     
     h5{
@@ -105,7 +109,7 @@
 }
 
 .sidebar-brand a:hover {
-    color: #FF1919;
+    color: #999999;
     background: none;
     text-decoration: none;
 }

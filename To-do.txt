@@ -26,7 +26,12 @@
 - links in sidebar (horizontal)
 - on click (animation reverse/load next page)
 
-
+//other//
+update profile on linkedin/codepen
+CV-page
+make new cv
+make site accessable (screen-readers)
+check all links work
 
 
 
@@ -36,10 +41,10 @@ SVG's to make
 *Menu
 *Malcolm Fernandes
 *Front-End Web Developer
-About
-Projects
-CV
-Contact
+*About
+*Projects
+*CV
+*Contact
 
 --About
 my face
