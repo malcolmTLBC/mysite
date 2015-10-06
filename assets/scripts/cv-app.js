@@ -38,7 +38,7 @@ tl.set($('.content-style'), {
 tl.staggerTo('#head *', duration, stagger_opts_to, stagger_val);
 tl.staggerTo('.content-style', 5, {opacity: 1, scale: 1, ease: Power4.easeOut}, .5, .5);
 tl.staggerTo('#heading *', 3, stagger_opts_to, 0.04, 0);
-tl.staggerTo('#menu *', duration, stagger_opts_to, stagger_val, 2.3);
+tl.staggerTo('#menu *', duration, stagger_opts_to, stagger_val, 3.5);
 
 function getRandom(min, max) {
   return Math.random() * (max - min) + min;

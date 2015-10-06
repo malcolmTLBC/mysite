@@ -5004,10 +5004,15 @@ svg {
       height: 65px; } }
 
 .contact-row {
-  margin: 5px 0; }
+  margin: 50px 0; }
   @media only screen and (min-width: 410px) {
     .contact-row {
-      margin: 20px 0; } }
+      margin: 100px 0; } }
+  .contact-row .link {
+    margin: 20px 0; }
+    @media only screen and (min-width: 410px) {
+      .contact-row .link {
+        margin: 20px 0; } }
 
 .about-container {
   height: 35vh;

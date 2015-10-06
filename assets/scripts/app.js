@@ -41,7 +41,7 @@ var reverse_stagger_opts = {
 tl.staggerTo('#name *', duration, stagger_opts_to, stagger_val);
 tl.staggerTo('#title *', duration, stagger_opts_to, stagger_val, 0.5);
 tl.staggerTo('#link *', 0.5, stagger_opts_to, 0.0015, 1);
-tl.staggerTo('#menu *', duration, stagger_opts_to, stagger_val, 3);
+tl.staggerTo('#menu *', duration, stagger_opts_to, stagger_val, 3.5);
 
 // $("#link *").hover(
 //   function() {
