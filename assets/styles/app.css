@@ -5025,6 +5025,9 @@ svg {
     .about-container .svg-container svg {
       height: inherit; }
 
+#wrapper {
+  opacity: 0; }
+
 .content-style {
   font-size: 40px;
   margin-top: 0; }

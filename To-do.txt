@@ -28,12 +28,12 @@
 
 //other//
 update profile on linkedin/codepen
-CV-page
-make new cv
+*CV-page
+*make new cv
 make site accessable (screen-readers)
-check all links work
-fix text on mobile for cv/sidebar
-sidebar
+*check all links work
+*fix text on mobile for cv/sidebar
+*sidebar
 
 
 

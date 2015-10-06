@@ -13,9 +13,9 @@ var tl = new TimelineMax(tmax_optionsGlobal),
 
 $.each($(path), function(i, el) {
   tl.set($(this), {
-    x: '+=' + getRandom(-40, 40 ),
-    y: '+=' + getRandom(-40, 40 ),
-    rotation: '+=' + getRandom(-350, 350 ),
+    x: '+=' + getRandom(-4, 4 ),
+    y: '+=' + getRandom(-4, 4 ),
+    rotation: '+=' + getRandom(-320, 320),
     scale: 0,
     opacity: 0
   });
@@ -38,6 +38,7 @@ var reverse_stagger_opts = {
   ease: Power4.easeOut
 };
 
+tl.staggerTo('#wrapper', 1, {opacity:1}, 0.12);
 tl.staggerTo('#name *', duration, stagger_opts_to, stagger_val);
 tl.staggerTo('#title *', duration, stagger_opts_to, stagger_val, 0.5);
 tl.staggerTo('#link *', 0.5, stagger_opts_to, 0.0015, 1);

@@ -6,6 +6,7 @@
 // }
 body {
 	background-color: #DCDCDC;
+	// display: none;
 }
 
 svg {
@@ -68,4 +69,7 @@ svg {
 			height: inherit;
 		}
 	}
+}
+#wrapper {
+	opacity: 0;
 }

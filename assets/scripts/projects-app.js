@@ -35,6 +35,7 @@ tl.set($('.content-style'), {
   scale: 0.9
 });
 
+tl.staggerTo('#wrapper', 1, {opacity:1, ease: Power4.easeIn}, 0.1);
 tl.staggerTo('#head *', duration, stagger_opts_to, stagger_val);
 tl.staggerTo('.content-style', 5, {opacity: 1, scale: 1, ease: Power4.easeOut}, .5, .5);
 tl.staggerTo('#menu *', duration, stagger_opts_to, stagger_val, 2.8);
