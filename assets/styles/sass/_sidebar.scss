@@ -61,6 +61,9 @@
     li:nth-child(4) {
         border-bottom: thin solid #999999;
     }
+    i {
+        width: 30px;
+    }
 }
 
 .sidebar-nav li, 
@@ -89,7 +92,7 @@
 }
 
 .sidebar-brand {
-    height: 70px;
+    // height: 70px;
     border-bottom: thin solid #999999;
     // font-size: 18px;
     

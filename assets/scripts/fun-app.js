@@ -39,7 +39,7 @@ var reverse_stagger_opts = {
 };
 
 tl.staggerTo('#head *', duration, stagger_opts_to, stagger_val);
-tl.staggerTo('#face *', 4.5, stagger_opts_to, 0.01, 0.1);
+tl.staggerTo('#face *', 3.5, stagger_opts_to, 0.001, 0.1);
 tl.staggerTo('#about *', 1, stagger_opts_to, 0.01, 0.1);
 tl.staggerTo('#menu *', duration, stagger_opts_to, stagger_val, 8);
 

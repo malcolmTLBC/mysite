@@ -32,6 +32,8 @@ CV-page
 make new cv
 make site accessable (screen-readers)
 check all links work
+fix text on mobile for cv/sidebar
+sidebar
 
 
 
