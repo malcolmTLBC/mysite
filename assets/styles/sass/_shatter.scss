@@ -41,6 +41,9 @@ svg > * {
   max-width: 60%;
   width: 60%;
   @include MQ(S) {
+      margin-top: 30px;
+  }
+  @include MQ(M) {
       margin-top: 50px;
   }
 }

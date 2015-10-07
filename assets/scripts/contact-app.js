@@ -1,3 +1,7 @@
+$(".menu-button").click(function() {
+    $("#wrapper").toggleClass("toggled");
+});
+
 var tmax_optionsGlobal = {
   repeat: 0,
   repeatDelay: 0.65,
@@ -38,10 +42,10 @@ var reverse_stagger_opts = {
   ease: Power4.easeOut
 };
 
-tl.staggerTo('#wrapper', 1, {opacity:1, ease: Power4.easeIn}, 0.1);
+tl.staggerTo('#wrapper', .1, {opacity:1, ease: Power4.easeIn}, 0.0001);
 tl.staggerTo('#head *', duration, stagger_opts_to, stagger_val);
-tl.staggerTo('#contact *', 0.5, stagger_opts_to, 0.0004, 1);
-tl.staggerTo('#menu *', duration, stagger_opts_to, stagger_val, 2.5);
+tl.staggerTo('#contact *', 2, stagger_opts_to, 0.001, 1);
+tl.staggerTo('#menu *', duration, stagger_opts_to, stagger_val, 3.5);
 
 // $("#link *").hover(
 //   function() {

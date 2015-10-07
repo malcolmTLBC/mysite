@@ -1,3 +1,7 @@
+$(".menu-button").click(function() {
+    $("#wrapper").toggleClass("toggled");
+});
+
 var tmax_optionsGlobal = {
   repeat: 0,
   repeatDelay: 0.65,
@@ -38,7 +42,7 @@ var reverse_stagger_opts = {
   ease: Power4.easeOut
 };
 
-tl.staggerTo('#wrapper', 1, {opacity:1}, 0.12);
+tl.staggerTo('#wrapper', 1, {opacity:1, ease: Power4.easeIn}, 0.1);
 tl.staggerTo('#name *', duration, stagger_opts_to, stagger_val);
 tl.staggerTo('#title *', duration, stagger_opts_to, stagger_val, 0.5);
 tl.staggerTo('#link *', 0.5, stagger_opts_to, 0.0015, 1);

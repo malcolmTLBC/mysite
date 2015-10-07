@@ -4982,20 +4982,24 @@ svg {
   margin: 40px 0; }
   @media only screen and (min-width: 410px) {
     .row {
-      margin: 60px 0; } }
+      margin: 50px 0; } }
 
 .top-row {
-  margin: 20px 0; }
+  margin: 5vh 0;
+  max-height: 30px; }
   @media only screen and (min-width: 410px) {
     .top-row {
-      margin: 20px 0; } }
+      margin: 20px 0;
+      max-height: 40px; } }
 
 .menu-button {
+  height: 10vh;
   width: 50px;
   cursor: pointer; }
   @media only screen and (min-width: 410px) {
     .menu-button {
-      width: 100px; } }
+      width: 100px;
+      height: 10vh; } }
 
 .head svg {
   height: 45px; }
@@ -5026,13 +5030,15 @@ svg {
       height: inherit; }
 
 #wrapper {
-  opacity: 0; }
+  opacity: 0;
+  height: 100vh; }
 
 .content-style {
   font-size: 40px;
   margin-top: 0; }
   .content-style .heading svg {
-    height: 34px; }
+    height: 34px;
+    cursor: pointer; }
     @media only screen and (min-width: 410px) {
       .content-style .heading svg {
         height: 45px; } }
@@ -5061,7 +5067,8 @@ svg {
           font-size: 1.4rem; } }
   .content-style a {
     text-decoration: none;
-    color: inherit; }
+    color: inherit;
+    dislpay: inline-block; }
     .content-style a:hover {
       color: #6E5F60; }
   .content-style .row {
@@ -5128,7 +5135,7 @@ svg {
   line-height: 40px;
   width: 250px; }
 
-.sidebar-nav li, a {
+.sidebar-nav li, .sidebar-nav a {
   display: block;
   text-decoration: none;
   color: #999999; }
@@ -5206,5 +5213,8 @@ svg > * {
   max-width: 60%;
   width: 60%; }
   @media only screen and (min-width: 410px) {
+    #name {
+      margin-top: 30px; } }
+  @media only screen and (min-width: 768px) {
     #name {
       margin-top: 50px; } }

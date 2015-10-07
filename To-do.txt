@@ -6,11 +6,18 @@
 -svg image of me and text flies in(smashing)
 -links to linkedin, git, codepen
 -credit for smashing text by ARS (include link)
+-- A passsion (line 2)
+-- ... A lot
+-- 
 
 // Projects //
 -Treehouse
 -Learn Python the Hard Way
 -soie-de-lune
+--please forgive (remove)
+--collaborated
+--compatibility
+
 
 // CV //
 -smashing text headings
@@ -35,38 +42,12 @@ make site accessable (screen-readers)
 *fix text on mobile for cv/sidebar
 *sidebar
 
+FIX MEDIA QUERIES
+GOOGLE ANALYTICS
+GOOGLE SITEMAP
+ABOUT/ABOUT ME
+LAST PARAGRAPH ON ABOUT PAGE
+PUT BRACKETS ON DATES CV
+PATIENCE/ opportunity (SPELLING CV PAGE) 
 
-
-SVG's to make
-
---Home
-*Menu
-*Malcolm Fernandes
-*Front-End Web Developer
-*About
-*Projects
-*CV
-*Contact
-
---About
-my face
-about text - dont cut
-
---Projects
-soiedelune
-treehouse
-codepen
-github
-
---CV
--headings
-Synopsis
-Experience
-Key Skils
-Skills
-Education 
-
---Contact
-telephone number
-email address
 

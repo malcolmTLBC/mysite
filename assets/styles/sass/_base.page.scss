@@ -17,31 +17,39 @@ svg {
 .row {
 	margin: 40px 0;
 	@include MQ(S) {
-		margin: 60px 0;
+		margin: 50px 0;
 	}
 }
 
 .top-row {
-	margin: 20px 0;
+	margin: 5vh 0;
+	max-height: 30px;
 	@include MQ(S) {
 		margin: 20px 0;
+		max-height: 40px
 	}
 }
 .menu-button {
+	height: 10vh;
 	width: 50px;
 	cursor: pointer;
 	@include MQ(S) {
 		width: 100px;
+		height: 10vh;
 	}
 
 }
 
-.head svg {
-	height: 45px;
-	@include MQ(S) {
-		height: 65px;
+.head {
+
+	svg {
+		height: 45px;
+		@include MQ(S) {
+			height: 65px;
+		}
 	}
 }
+
 
 .contact-row {
 	margin: 50px 0;
@@ -72,4 +80,5 @@ svg {
 }
 #wrapper {
 	opacity: 0;
+	height: 100vh;
 }

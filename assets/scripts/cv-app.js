@@ -1,3 +1,8 @@
+$(".menu-button").click(function() {
+    $("#wrapper").toggleClass("toggled");
+});
+
+
 var tmax_optionsGlobal = {
   repeat: 0,
   repeatDelay: 0.65,
