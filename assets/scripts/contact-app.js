@@ -44,8 +44,8 @@ var reverse_stagger_opts = {
 
 tl.staggerTo('#wrapper', .1, {opacity:1, ease: Power4.easeIn}, 0.0001);
 tl.staggerTo('#head *', duration, stagger_opts_to, stagger_val);
-tl.staggerTo('#contact *', 2, stagger_opts_to, 0.001, 1);
-tl.staggerTo('#menu *', duration, stagger_opts_to, stagger_val, 3.5);
+tl.staggerTo('#contact *', 2, stagger_opts_to, 0.001, .5);
+tl.staggerTo('#menu *', duration, stagger_opts_to, stagger_val, 1.8);
 
 // $("#link *").hover(
 //   function() {
