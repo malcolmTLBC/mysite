@@ -81,6 +81,7 @@
     color: #999999;
 }
 
+
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #999999;
@@ -93,20 +94,20 @@
 }
 
 .sidebar-brand {
-    // height: 70px;
     border-bottom: thin solid #999999;
-    // font-size: 18px;
-    
     h5{
         margin-left: 15px;
         margin-top: 42px;
         margin-bottom: 42px;
+        &:hover {
+            color: #fff;
+        }  
         span {
             margin-left: inherit;
             font-size: 1rem;
             line-height: 0.2;
         }
-    }           
+    }         
 }
 
 .sidebar-brand a {
